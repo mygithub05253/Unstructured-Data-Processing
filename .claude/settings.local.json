@@ -1,4 +1,14 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(npm root:*)",
+      "Bash(pandoc:*)"
+    ]
+  },
   "hooks": {
     "PostToolUse": [
       {
@@ -19,11 +29,6 @@
           }
         ]
       }
-    ]
-  },
-  "permissions": {
-    "allow": [
-      "Bash(python:*)"
     ]
   }
 }
