@@ -1,0 +1,17 @@
+# .claudeignore
+# 데이터 파일 절대 접근 금지 (pandas로 코드를 통해서만 읽도록 강제)
+*.csv
+*.tsv
+*.xlsx
+*.json
+data/
+
+# 모델 파일 접근 금지 (바이너리 파일을 텍스트로 읽으면 토큰 폭탄 발생)
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# 가상환경 및 캐시
+.venv/
+__pycache__/
