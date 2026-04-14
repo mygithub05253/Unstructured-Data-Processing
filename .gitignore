@@ -12,7 +12,6 @@ wheels/
 # IDE & Tool configs (개인 로컬 설정 제외)
 .vscode/
 .playwright-mcp/
-.claude/
 
 # Excluded by User Request (교수님 자료)
 lecture/
