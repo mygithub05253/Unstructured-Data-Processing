@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# IDE & Tool configs (개인 로컬 설정 제외)
+.vscode/
+.playwright-mcp/
+.claude/
+
+# Excluded by User Request (교수님 자료)
+lecture/
+
+# OS generated files
+.DS_Store
+Thumbs.db
